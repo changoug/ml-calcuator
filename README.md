@@ -1,7 +1,7 @@
 # Project 2
 # **Machine Learning Calculator**
 ## **Summary**
-This is a machine learning calculator. On the surface, it may seem to function like a normal calculator. However, it does not actually calculate, but rather predicts what the answer is. As a result, an input that it was not trained to solve will cause the program's prediction to be very off.
+This is a machine learning calculator. On the surface, it may seem to function like a normal calculator. However, it does not actually calculate, but rather predicts what the answer is given the inputs. As a result, any input, especially ones the model was not trained to predict, can be fairly inaccurate.
 
 ## **Prerequisites**
 - Tensorflow
