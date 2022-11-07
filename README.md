@@ -8,6 +8,10 @@ This is a machine learning calculator. On the surface, it may seem to function l
 - Keras
 - NumPy
 
+## **How to run**
+- Install dependencies (I used a Miniconda env)
+- Open and run ml_calculator.py
+
 ### **Program Design**
 This program was made using Keras, a high-level API for Tensorflow. For each of the operations, I trained a separate model with the given constraints on the dataset:
 
