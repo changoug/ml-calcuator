@@ -13,9 +13,9 @@ This program was made using Keras, a high-level API for Tensorflow. For each of 
 
 NOTE: All numbers are integers
 
-**Addition:** Two numbers between 0 and 1000.
-**Subtraction:** First number between 1000 and 2000, second number between 0 and 1000 (To ensure that result is positive).
-**Multiplication:** Two numbers between 0 and 10.
-**Division:** This is a bit more complicated. Two numbers are chosen, number A between 1 and 10, number B between 1 and 100. For input, the dividend is A * B and the divisor is B. This is to ensure that the quotient is always at least 1, and that the dividend is always divisible.
+#### **Addition:** Two numbers between 0 and 1000.
+#### **Subtraction:** First number between 1000 and 2000, second number between 0 and 1000 (To ensure that result is positive).
+#### **Multiplication:** Two numbers between 0 and 10.
+#### **Division:** This is a bit more complicated. Two numbers are chosen, number A between 1 and 10, number B between 1 and 100. For input, the dividend is A * B and the divisor is B. This is to ensure that the quotient is always at least 1, and that the dividend is always divisible.
 
 These constraints are mainly in place due to training accuracies being significantly better within these bounds.
